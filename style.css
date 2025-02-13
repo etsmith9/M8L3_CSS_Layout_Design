@@ -1,11 +1,12 @@
-/* task 1:  */
+/* task 1: Create a Basic Flexbox Layout Start by creating a simple webpage layout using Flexbox */
 body {
     font-family: 'arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f2f5;
     display: flex;
-    flex-direction: column;   /* task 3 */
+    flex-direction: column;   /* task 3 Enhance the Layout with Flexbox Properties Further enhance your 
+	layout by using Flexbox properties such as justify-content, align-items, and flex-grow. */
     height: 100vh;
 }
 
@@ -153,7 +154,9 @@ img {
     transform: scale(1.1); 
 }
 
-/* task 2. */
+/* task 2. Implement Responsive Design Modify your Flexbox layout to include responsive design elements. 
+Use media queries to adjust the layout for smaller screens, converting the navigation and footer 
+content areas into a column format when the viewport width is less than 600px */
 @media screen and (max-width: 600px) {    
 	.container {
 		Display: flex;
